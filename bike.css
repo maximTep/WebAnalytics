@@ -1,0 +1,35 @@
+.bike_container{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "img label" 
+    "table table";
+}
+.img_conteiner{
+    grid-area: img;
+    text-align: center;
+}
+.img_conteiner img{
+    padding-right: 2%;
+    padding-left: 2%;
+    max-width: 96%;
+    max-height: 100%;
+    background: white;
+}
+table{
+    margin-top: 25px;
+    grid-area: table;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.3em;
+    border: 1px black solid;
+}
+td{
+    margin: 0px;
+    border: 1px black solid;
+}
+th{    
+    padding: 0.5em;
+}
